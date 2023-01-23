@@ -17,7 +17,11 @@ Take the initial count as 0.
 Take a bitset arr.    
 Set it with num as arr |=num.      
 Traverse arr using for loop from i=0 to i<64. If arr[i] is 0 then increment count else breaks the loop.       
-Return count as result at the end of loop.     
+Return count as result at the end of loop.  
+
+For Example: if num = 64      
+Count of number of trailing zeros in Binary representation of a number using Bitset are: 6 because The number 64 in binary is represented as 10000000 so trailing zeroes in it is 6.     
+
 
 ![image](https://user-images.githubusercontent.com/117966470/213972429-6f62a250-edcb-4cc1-bc9b-a8b232af6c4f.png)
 
